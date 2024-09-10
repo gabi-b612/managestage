@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.managestage.managestage.controller.LoginController">
+   <Pane id="login-pane" prefHeight="457.0" prefWidth="367.0" stylesheets="@css/login.css" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ImageView fitHeight="179.0" fitWidth="199.0" layoutX="101.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <Image url="@pictures/logo-udbl.png" />
+      </ImageView>
+      <Label id="login-pane-title-ubdl" layoutX="53.0" layoutY="264.0" stylesheets="@css/login.css" text="Administration" textAlignment="CENTER" />
+   </Pane>
+   <FontAwesomeIcon caretBias="false" fill="RED" fontSmoothingType="LCD" glyphName="CLOSE" layoutX="764.0000053405755" layoutY="25.40000057220459" size="1.5em" AnchorPane.bottomAnchor="422.69999980926514" AnchorPane.rightAnchor="22.699994468689624" AnchorPane.topAnchor="14.0" />
+   <Button id="icon-button-connexion" layoutX="474.0" layoutY="309.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="245.0" stylesheets="@css/login.css" text="Connexion" />
+   <FontAwesomeIcon fill="WHITE" glyphName="SIGN_IN" layoutX="648.0" layoutY="337.0" size="1.5em" wrappingWidth="21.79990291595459" />
+   <TextField id="text-input" layoutX="474.0" layoutY="178.0" prefHeight="26.0" prefWidth="246.0" promptText="Email" stylesheets="@css/login.css" />
+   <Label id="login-title-gestion" layoutX="438.0" layoutY="61.0" stylesheets="@css/login.css" text="Gestion de stage" textAlignment="CENTER" />
+   <PasswordField id="text-input" layoutX="474.0" layoutY="227.0" prefHeight="26.0" prefWidth="246.0" promptText="Password" stylesheets="@css/login.css" />
+</AnchorPane>

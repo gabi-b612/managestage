@@ -6,4 +6,6 @@ module com.managestage.managestage {
 
     opens com.managestage.managestage to javafx.fxml;
     exports com.managestage.managestage;
+    exports com.managestage.managestage.controller;
+    opens com.managestage.managestage.controller to javafx.fxml;
 }

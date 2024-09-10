@@ -1,0 +1,51 @@
+
+#login-pane {
+    -fx-background-color: #2c4d9c;
+}
+
+#login-pane-title-ubdl {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+
+#login-title-gestion {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 36px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #2c4d9c;
+    font-style: normal;
+}
+
+#icon-close {
+    -fx-fill: red;
+    -fx-font-size: 1.5em;
+    -fx-font-smoothing-type: LCD;
+    -fx-background-color: transparent;
+}
+#icon-close:hover {
+    -fx-cursor: hand;
+}
+
+#icon-button-connexion {
+    -fx-background-color: #2c4d9c;
+    -fx-text-fill: white;
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-weight: 700;
+    -fx-font-size: 16px;
+}
+
+#icon-button-connexion:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #53ae32;
+}
+
+#text-input {
+    -fx-text-fill: #838383;
+    -fx-font-family: "Poppins", sans-serif;
+}
+
