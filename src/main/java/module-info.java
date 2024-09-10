@@ -3,6 +3,8 @@ module com.managestage.managestage {
     requires javafx.fxml;
 
     requires org.kordamp.bootstrapfx.core;
+    requires fontawesomefx;
+    requires org.json;
 
     opens com.managestage.managestage to javafx.fxml;
     exports com.managestage.managestage;
