@@ -1,0 +1,60 @@
+
+#left-pane {
+    -fx-background-color: #1a202e;
+}
+
+#content-main {
+    -fx-background-color: #232b3e;
+}
+
+#logo-title {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+
+#logo-dashboard {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 40px;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+
+#dashboard-text-link {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+
+#dashboard-student-link .font-awesome-icon {
+    -fx-fill: white;
+    -fx-font-size: 2em;
+}
+
+
+#dashboard-student-link .label {
+    -fx-text-fill: white;
+}
+
+#dashboard-student-link:hover .font-awesome-icon {
+    -fx-fill: #41af50;
+    -fx-cursor: hand;
+}
+
+#dashboard-student-link:hover .label {
+    -fx-text-fill: #41af50;
+    -fx-cursor: hand;
+}
+/*--primary-hover {*/
+/*    --border-color: #6777ef;*/
+/*    --border-color: #41af50;*/
+/*}*/
+/*.font-awesome-icon:hover {*/
+/*    -fx-cursor: hand;*/
+/*    -fx-fill: #41af50 ;*/
+/*}*/
