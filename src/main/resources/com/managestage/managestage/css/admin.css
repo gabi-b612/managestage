@@ -50,8 +50,13 @@
     -fx-text-fill: #41af50;
     -fx-cursor: hand;
 }
+
+.font-awesome-icon:hover {
+    -fx-fill: #41af50;
+    -fx-cursor: hand;
+}
 /*--primary-hover {*/
-/*    --border-color: #6777ef;*/
+/*    --border-color: #6777ef; 232b3e*/
 /*    --border-color: #41af50;*/
 /*}*/
 /*.font-awesome-icon:hover {*/

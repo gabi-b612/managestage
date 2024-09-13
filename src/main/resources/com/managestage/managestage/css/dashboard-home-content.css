@@ -1,0 +1,92 @@
+
+.content-main {
+    -fx-background-color: #232b3e;
+}
+
+.dashboard-text-link {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+
+.recent {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 26px;
+    -fx-font-weight: 800;
+    -fx-text-fill: white;
+    font-style: normal;
+}
+.header-recent {
+    -fx-background-color: rgba(0, 0, 0, 0.39);
+}
+.recent-text {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #acabab;
+    font-style: normal;
+}
+.recent-text-name {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #acabab;
+    font-style: normal;
+}
+.text-card {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #acabab;
+    font-style: normal;
+}
+
+.text-card-number {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 46px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #41af50;
+}
+.content-header {
+    -fx-background-color: #1a202e;
+    -fx-border-radius: 10px;
+    -fx-border-color: #1a202e !important;
+    -fx-background-radius: 10px;
+}
+
+.panel-indisponible {
+    -fx-background-color: rgba(241, 22, 65, 0.37);
+    -fx-border-radius: 10px;
+    -fx-border-color:rgba(241, 22, 65, 0.37) !important;
+    -fx-background-radius: 10px;
+}
+.indisponible-text {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #ff1744 !important;
+}
+
+.panel-disponible {
+    -fx-background-color: rgba(53, 182, 117, 0.37);
+    -fx-border-radius: 10px;
+    -fx-border-color: rgba(53, 182, 117, 0.37) !important;
+    -fx-background-radius: 10px;
+}
+
+.disponible-text {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #35b675 !important;
+}
+
+.indisponible-text-level {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #6c6c6c;
+    font-style: normal;
+}
